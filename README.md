@@ -227,4 +227,41 @@ Uses pretrained ESM-2 (3B) embeddings
 
 - Final regression performed with LassoCV for robust feature selection
 
+## 📊 Results Visualization
+
+The framework automatically generates:
+- Training and validation loss curves
+- 
+- Prediction vs. true value scatter plots
+- 
+- Error distribution histograms
+- 
+- ROC curves for classification performance
+- 
+- Feature importance weights (Lasso and cross-attention)
+
+Visualizations are saved in the `results/` directory.
+
+## 📝 Citation
+
+If you use this code in your research, please cite:
+
+```bibtex
+@misc{TopoBind2025,
+  title={TopoBind: Multi-Modal Prediction of Antibody-Antigen Binding Free Energy via Sequence Embeddings and Structural Topology}, 
+  author={Ciyuan Yu and Hongzong Li and Jiahao Ma and Shiqin Tang and Ye-Fan Hu and Jian-Dong Huang},
+  year={2025},
+  eprint={2508.19632},
+  archivePrefix={arXiv},
+  primaryClass={q-bio.BM},
+  url={https://arxiv.org/abs/2508.19632}
+}
+```
+
+## 📧 Contact
+
+For questions or collaborations, please contact:
+
+Email: 72402757@cityu-dg.edu.cn
+
 
