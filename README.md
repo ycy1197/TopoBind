@@ -32,8 +32,6 @@ TopoBind leverages cross-attention, adaptive gating, and Lasso regression to ach
 ## 📁 Project Structure
 ```
 TopoBind/
-├── config/
-│   └── config.yaml              # Main configuration file
 ├── src/
 │   ├── data/                    # Data loading and preprocessing
 │   │   ├── download_pdb.py      # Download raw PDB files from RCSB
