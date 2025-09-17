@@ -231,13 +231,9 @@ Uses pretrained ESM-2 (3B) embeddings
 
 The framework automatically generates:
 - Training and validation loss curves
-- 
 - Prediction vs. true value scatter plots
-- 
 - Error distribution histograms
-- 
 - ROC curves for classification performance
-- 
 - Feature importance weights (Lasso and cross-attention)
 
 Visualizations are saved in the `results/` directory.
