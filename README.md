@@ -264,4 +264,22 @@ For questions or collaborations, please contact:
 
 Email: 72402757@cityu-dg.edu.cn
 
+<!-- ## 🔍 Troubleshooting
+
+### Common Issues
+
+1. **CUDA Out of Memory**:
+   - Reduce `batch_size` in config
+   - Enable gradient accumulation
+   - Use mixed precision training
+
+2. **Slow Training**:
+   - Increase `num_workers` in config
+   - Enable `pin_memory` for GPU
+   - Use SSD for data storage
+
+3. **Poor Performance**:
+   - Check data normalization
+   - Adjust learning rate schedule
+   - Increase model capacity (layers, dimensions) -->
 
