@@ -44,7 +44,8 @@ TopoBind/
 │       └── extract_topo_features.py # Extract scalar topological descriptors (contact, interface, distance, PH)
 │   ├── models/                  # Model architecture
 │   │   ├── __init__.py
-│   │   ├── model.py 
+│   │   ├── model.py
+│   │   ├── corss_attention.py 
 │   ├── training/           # Training utilities
 │   │   ├── __init__.py
 │   │   └── train.py       
